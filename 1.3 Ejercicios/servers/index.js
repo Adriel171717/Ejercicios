@@ -16,5 +16,5 @@ app.use('*', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log("Servidor corriendo en http://localhost:3000");
+    console.log("Servidor corriendo en puerto http://localhost:3000");
 });
